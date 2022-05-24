@@ -291,6 +291,7 @@ defaults:
       share: true
       related: true
       mathjax: true
-      sidebar_main: false
+      jax: ["input/TeX","output/commonHTML"]
+      sidebar_main: true
 
 future: true
