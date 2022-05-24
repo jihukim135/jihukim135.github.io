@@ -1,0 +1,54 @@
+/* ==========================================================================
+   Contrast skin
+   ========================================================================== */
+
+/* Colors */
+$background-color: #ffffff !default;
+$text-color: #201524 !default;
+$muted-text-color: #444444 !default;
+$primary-color: #0eb1a9 !default;
+$border-color: $background-color !default;
+$footer-background-color: #c5c5c5  !default;
+$link-color: $primary-color !default;
+$link-color-visited: #00746e !default;
+$masthead-link-color: $text-color !default;
+$masthead-link-color-hover: $text-color !default;
+$navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
+
+/* contrast syntax highlighting (base16) */
+$base00: #262626 !default; // 배경
+$base01: #242422 !default;
+$base02: #484844 !default;
+$base03: #6c6c66 !default;
+$base04: #85C46C !default; // 주석
+$base05: #BDBDBD !default; // 구두점
+$base06: #d9d7cc !default;
+$base07: #fdfbee !default;
+$base08: #FF5647 !default; // 에러
+$base09: #ED94C0 !default; // 숫자 리터럴
+$base0a: #C191FF !default; // 클래스명
+$base0b: #D3AA72 !default; // string 리터럴
+$base0c: #c6c5fe !default; // 연산자
+$base0d: #39CC8F !default; // 함수이름
+$base0e: #6C95EB !default; // 키워드
+$base0f: #b18a3d !default;
+
+.page__content {
+  .notice,
+  .notice--primary,
+  .notice--info,
+  .notice--warning,
+  .notice--success,
+  .notice--danger {
+    color: $text-color;
+  }
+}
+
+.page__footer {
+  color: #40394A !important; // override
+}
+
+.page__footer-follow .social-icons i,
+.page__footer-follow .social-icons .svg-inline--fa  {
+  color: inherit;
+}
