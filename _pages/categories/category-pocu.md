@@ -1,7 +1,7 @@
 ---
 title: "POCU"
 layout: archive
-permalink: categories/pocu
+permalink: categories/pocu/
 author_profile: true
 sidebar_main: true
 ---
