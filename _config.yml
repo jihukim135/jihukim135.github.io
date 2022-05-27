@@ -293,5 +293,6 @@ defaults:
       mathjax: true
       jax: ["input/TeX","output/commonHTML"]
       sidebar_main: true
+      plugins: [jekyll-youtube]
 
 future: true
