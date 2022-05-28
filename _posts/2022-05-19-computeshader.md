@@ -4,7 +4,6 @@ excerpt:
 
 categories: Unity
 tags:
-  # - [math]
 
 toc: true
 toc_sticky: true
